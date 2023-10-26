@@ -4,6 +4,7 @@ import { TodosComponent } from './MyComponents/todos/todos.component';
 import { AppComponent } from './app.component';
 
 const routes: Routes = [
+  {path:'',component: TodosComponent},
   {path : 'home', component: TodosComponent},
 ];
 
